@@ -1,0 +1,8 @@
+1. Create db using:
+    sqlite3 db_name.db; e.g. sqlite3 pets_database.db;
+2. Use this command in terminal to execute file:
+    sqlite3 db_name.db < file_name.sql; e.g. sqlite3 pets_database.db < 01_create_cats_table.sql;
+3. Check for changes using:
+    .schema
+4. Delete table using:
+    DROP TABLE table_name; e.g. DROP TABLE cats;
